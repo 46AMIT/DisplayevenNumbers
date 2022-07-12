@@ -4,9 +4,9 @@ class DisplayevenNumbers
 public static void main(String args[])
 {
 int i;
-Scanner so=new Scanner(System.in);
+Scanner amit=new Scanner(System.in);
 System.out.println("Enter the limit");
-int limit=so.nextInt();
+int limit=amit.nextInt();
 for(i=1;i<=limit;i++)
 {
 if(i%2==0)
